@@ -113,7 +113,7 @@ async function fetchByDistrict() {
 	}
 
     await sleepNow(sleepInterval);
-    fetchByPincode();
+    fetchByDistrict();
 }
 
 console.log('Fetch by pincode here...');
